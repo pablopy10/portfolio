@@ -1,0 +1,116 @@
+.designer{
+    font-size: 100px;
+    font-family: 'Lobster';
+    opacity: 0.1;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.designer h1{
+    text-shadow: 8px 18px 30px #89898a;   
+    margin-top: 100px;
+    color: rgb(231, 231, 231);
+   
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.hero-info{
+    line-height: 25px;
+    z-index: 20;
+}
+
+.hero-info h3{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-info h1{
+    font-size: 40px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-info p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+#hero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 143, 85);
+    border-radius: 300px; 
+    z-index: 2;
+}
+
+#hero-img img{
+    height: 400px;
+}
+
+.cta1, .cta2{
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.cta1{
+    padding: 17px 35px;
+    background-color: rgb(3, 143, 85);
+    border: none;
+    margin-right: 20px;
+}
+
+.cta1 a{
+    color: white;
+}
+
+.cta1:hover{
+    background-color: rgb(4, 196, 116);
+}
+
+.cta2{
+    padding: 15px 35px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+}
+
+.cta2 a{
+    color: white;
+}
+
+.cta2:hover{
+    border: 2px solid rgb(3, 143, 85);
+}
+
+.hero-img{
+    display: flex;
+    height: 100%;
+    z-index: 20;
+}
+
+.hero-img img{
+    height: 35rem;
+    align-self: flex-end;
+    padding-left: 200px;
+   
+}
+
+
